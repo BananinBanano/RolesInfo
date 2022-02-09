@@ -62,7 +62,8 @@ namespace RolesInfo.Commands
                     response = "MTF's must help scientist to escape and arrest Class-D personnel.";
                     return true;
                 case RoleType.Tutorial:
-                    
+                    response = "NULL";
+                    return false;
                 case RoleType.FacilityGuard:
                     response = "Facility Guard have to help Scientist to help and arrest Class-D personnel.";
                     return true;
