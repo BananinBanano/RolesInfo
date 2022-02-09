@@ -9,7 +9,7 @@ namespace RolesInfo
         public override string Author { get; } = "BANANO";
         public override string Name { get; } = "RolesInfoCommand";
         public override string Prefix { get; } = "Roles Info";
-        public override Version Version { get; } = new Version(0, 1, 0);
+        public override Version Version { get; } = new Version(0, 1, 1);
         public override Version RequiredExiledVersion { get; } = new Version(4, 2, 3);
         public override void OnEnabled()
         {
